@@ -1,7 +1,7 @@
-FROM ubuntu:bionic-20190612
-LABEL maintainer="sameer@damagehead.com"
+FROM ubuntu:latest
+LABEL maintainer="i2z1@yandex.ru"
 
-ENV SQUID_VERSION=3.5.27 \
+ENV SQUID_VERSION=5.2 \
     SQUID_CACHE_DIR=/var/spool/squid \
     SQUID_LOG_DIR=/var/log/squid \
     SQUID_USER=proxy
